@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    sring name, gender;
+    int age;
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << "Enter your age: ";
+    cin >> age;
+    cout << "Enter your height: ";
+    cin >> height;
+    cout << "Enter your gender: ";
+    cin >> gender;
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+    cout << "Height: " << height << endl;
+    cout << "Gender: " <<
+    cout << gender << endl;
+    return 0;
+}

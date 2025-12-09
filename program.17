@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float num = 15.58971;
+    int integral = (int)num; // Type casting float to int
+    float fractional = num - integral;
+    cout <<"" integral part = " << integral << endl;
+    cout << "Fractional part = " << fractional << endl;
+    return 0;
+}

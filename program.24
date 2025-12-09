@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,c,d,e;
+    cout<< "enter marks of five subjects: ";
+    cin>>a>>b>>c>>d>>e;
+
+    int total = a + b + c + d + e;
+    float avg = total / 5.0;
+    cout<< "Total marks: " << total << endl;
+    cout<< "Average marks: " << avg << endl;
+    return 0;
+}

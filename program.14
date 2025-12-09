@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float millimeters, inches;
+    cout << "Enter value in millimeters: ";
+    cin >> millimeters;
+    inches = millimeters / 25.4;
+    cout << millimeters << " millimeters is equal to " << inches << " inches."
+            << endl;
+    return 0;
+}

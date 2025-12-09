@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float vi,t,a;
+    cout<<"Enter initial velocity (vi): ";
+    cin>>vi;
+    cout<<"Enter time (t): ";
+    cin>>t;
+    cout<<"Enter acceleration (a): ";
+    cin>>a;
+    float s = vi*t + 0.5*a*t*t;
+    cout<<"The displacement (s) is: "<<s<<endl;
+    return 0;

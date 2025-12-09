@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int m,h,s;
+    cout<< "Enter hours, minutes and seconds: ";
+    cin>>h>>m>>s;
+    int total_seconds = h * 3600 + m * 60 + s;
+    cout<< "Total seconds: " << total_seconds << endl;
+    return 0;
+}
